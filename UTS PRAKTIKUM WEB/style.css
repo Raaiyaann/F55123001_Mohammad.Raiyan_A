@@ -1,0 +1,184 @@
+*, html {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Helvetica Neue",Helvetica,Arial
+}
+
+header {
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+nav ul li {
+    background-color: rgb(10, 111, 253);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.home {
+    display: flex;
+    height: 100vh;
+    background-color: rgb(54, 81, 126);
+    padding: 100px 50px;
+    color: white;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.desc {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.desc h1 {
+    font-size: 2em;
+}
+
+.home img {
+    width: 500px;
+}
+
+.btn {
+    margin-top: 20px;
+    display: flex;
+    gap: 30px;
+}
+
+.btn button{
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn button:nth-child(1) {
+    background-color: rgb(75, 176, 230);
+    color: white;
+}
+
+.btn button:nth-child(2) {
+    background-color: transparent;
+    color: white;
+}
+
+.btn button:nth-child(2):hover {
+    background-color: rgb(75, 176, 230);
+    color: white;
+    transition: all 0.2s ease-in-out;
+}
+
+.letter {
+    display: flex;
+    padding: 50px 100px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    background-color: rgb(244, 245, 250);
+}
+
+.letter h2 {
+    color: rgb(54, 81, 126);
+}
+
+.field {
+    display: flex;
+    width: 60%;
+}
+
+.field input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.5);
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.field button {
+    padding: 10px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: none;
+    background-color: rgb(75, 176, 230);
+    color: white;
+    cursor: pointer;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    font-size: .8em;
+    justify-content: space-between;
+}
+
+.contact {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    padding: 50px 80px;
+}
+
+.contact div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 25%;
+    color: gray;
+}
+
+.address h1 {
+    font-size: 2em;
+    color: rgb(54, 81, 126);
+}
+
+.contact h2 {
+    color: rgb(54, 81, 126);
+    margin-bottom: 5px;
+}
+
+.contact li {
+    list-style-type: none;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+div.circles {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+div.circles .circle {
+    background-color:rgb(75, 176, 230);
+    padding: 20px;
+    border-radius: 50%;
+}
+
+.copyright {
+    background-color: rgb(54, 81, 126);
+    padding: 20px 80px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.copyright span {
+    color:rgb(75, 176, 230);
+}
